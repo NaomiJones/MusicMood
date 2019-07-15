@@ -1,0 +1,48 @@
+div {
+  position: relative;
+  display: inline;
+}
+.imtip {
+  position: absolute;
+  /* top: 0%;
+  left: 40%; */
+  top: 58%;
+  left: 46%;
+  margin-left:-70px;
+  margin-top:-90px;
+  /* top: 50px;
+  left: 5px; */
+}
+
+
+
+.banner{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url("http://cdn1.litlepups.net/resize/2017/02/27/small-rainbow-background-on-tumblr.gif");
+  background-size: 2200px 400px;
+  background-repeat: no-repeat;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #FF00FF;
+}
+
+.active {
+  background-color: #FF00FF;
+}
